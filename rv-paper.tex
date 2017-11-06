@@ -20,7 +20,7 @@
 %\usepackage{mathptmx} % assumes new font selection scheme installed
 %\usepackage{times} % assumes new font selection scheme installed
 %\usepackage{amsmath} % assumes amsmath package installed
-%\usepackage{amssymb}  % assumes amsmath package installed
+%\usepackage{amssymb}  % assumes amsmath package installedX
 \usepackage{graphicx}
 \usepackage[export]{adjustbox}
 \graphicspath{ {images/} }
@@ -54,9 +54,9 @@ Collaboration between Multiple Automouns Cars
 
 Since we are entering the generation of industry 4.0, many factories are starting to change to automount way for logistics work. More and more factories are using automatic guided vehicle (AGV) system to help them transport objects from place to place. Moreover, AGV system is very efficient and cost-reducing.
 
-Like factory, other places such as school, hospital and company also have same requirements for logistics. Workers in this place spend lots of time to exchange documents, deliver medical supplies and other stuffs. We expect that workers can save lots of time and effort in logistics work and focus more on their jobs if we implement AGV system in these places. 
+Other places such as school, hospital and company also have same requirements for logistics. Workers in this place spend lots of time to exchange documents, deliver medical supplies and other stuffs. We expect that workers can save lots of time and effort in logistics work and focus more on their jobs if we implement AGV system in these places. 
 
-However, current AGV system is designed for factory, which means they have huge size and could only navigate through limited routes which have less people walking around. Therefore it is not suitable for school, hospital and company which are complicated with lots of obstacles and human. 
+However, current AGV system is designed for factory, which means they have huge size and could only navigate through limited routes which have less people walking around. Therefore, it is not suitable for school, hospital and company which are complicated with lots of obstacles and human. 
 
 To solve this problem, our team aims to develop a small AGV system which can be used in school or hospital to deliver stuffs. We design a small size autonomous car which can navigate through places to target location, avoid obstacles and human, recognize and grasp specific object, and communicate with other autonomous cars.
 
@@ -76,13 +76,13 @@ To solve this problem, our team aims to develop a small AGV system which can be 
 \caption{System architecture for automouns car system.}
 \end{figure}
 
-We will build a mobile platform with microprocessor, controller, other sensors and manipulator. The gripper of manipulator should be stable enough to grasp reasonable weight. 
+We build a mobile platform with microprocessor, controller, other sensors and is equipped with a manipulator. The gripper of manipulator should be stable enough to grasp reasonable weight. 
 
-Microprocessor is the main part of the system, consider the price and ability, we use Raspberry Pi 3 Model B+ which install ROS on it as middleware to accept signals from other hardware such motor and sensors and give them command. Also we use Arduino UNO as controller to accept the command from Raspberry pi to control motors.
+Microprocessor is the main part of the system, consider the price and ability, we use Raspberry Pi 3 Model B+ which install ROS on it as middleware to accept signals from other hardwares such as motor and sensors and give them commands. Also we use Arduino UNO as controller to accept commands from Raspberry pi to control motors.
 
-RPLiDAR is used to detect surrounding environment and send information to ROS for SLAM. RPi camera is used to capture the image which contain AprilTag and send back to ROS.
+RPLiDAR is used to detect surrounding environment and send information to ROS for SLAM. RPi camera is used to capture the image which contains AprilTag and send back to ROS.
 
-When autonomous cars are trying to collaborate, Wi-Fi Module is used to exchange data with others to get location or other information. One of  autonomous cars will collects all data, estimate the pose and send the pose information to other autonomous cars.
+When autonomous cars are trying to collaborate, Wi-FI Module is used to exchange data with others to get location or other information. One of  autonomous cars will collects all data, estimate the pose and send the pose information to other autonomous cars.
 
 
 
@@ -97,13 +97,13 @@ When autonomous cars are trying to collaborate, Wi-Fi Module is used to exchange
 	\item Controller: Arduino
 	\item GM25-370 DC Motors with encoder
 	\item Mobile chassis strucure
-	\item battery
+	\item bettary
 \end{itemize}
 
 \item Manipulator
 \begin{itemize}
 	\item AX12-A Motors
-	\item Gripper
+	\item Grasp
 \end{itemize}
 
 \item Sensors
@@ -133,22 +133,20 @@ When autonomous cars are trying to collaborate, Wi-Fi Module is used to exchange
 	\item Be able to move from the specific location to target location using RRT.
 \end{itemize}
 
-\item Recognizing apriltag
-\begin{itemize}
-    \item Recognize the specific object (with apriltag) and show it on map (RGB-D Camera)
-\end{itemize}
+\item Recognizing apriltag 
+Recognize the specific object (with apriltag) and show it on map (RGB-D Camera)
 
 \item Manipulator
 \begin{itemize}
 	\item Stable Structure
 	\item Grasping
-	\item Be able to put the specific object to a specific location (AprilTag)
+	\item Can put the specific object on an specific location (AprilTag)
 \end{itemize}
 
 \item Collaboration
 \begin{itemize}
 	\item Communication with each other
-	\item Knowing others’ locations
+	\item Knowing others' locations
 	\item Grasp the specific object together
 	\item Multiple cars move to multiple destinations respectively
 \end{itemize}
@@ -161,8 +159,8 @@ When autonomous cars are trying to collaborate, Wi-Fi Module is used to exchange
 \begin{itemize}
 \item Structure
 \begin{itemize}
-	\item Consider the center gravity and other equipments on the mobile, design a stable structure and assemble them.
-	\item Test which kind of structure is more suitable for our system, 2 or 3 layers.
+	\item Consider about the center of gravity and other equipments which on the mobile, design a stable structure and assemble it.
+	\item Test which kind of structure is more suitable to the system, 2 or 3 layers.
 \end{itemize}
 
 \item Mobile
@@ -188,10 +186,10 @@ When autonomous cars are trying to collaborate, Wi-Fi Module is used to exchange
 
 \subsection{Recognizing apriltag}
 \begin{itemize}
-\item Use raspberry-pi cemera(or other RGB-D cemera) to capture the real-time image.
-\item Use openCV to recognize AprilTag.
+\item Proposing use raspberry-pi cemera(or other RGB-D cemera) to capture the real-time image.
+\item Using openCV to recognize the AprilTag.
 \item Use TF and Pin hole projection to calculate the distance between the AprilTag and robot's location.
-\item Add the location of AprilTag on the map.
+\item Adding the information of AprilTag on the map.
 \end{itemize}
 
 \subsection{Manipulator}
@@ -209,21 +207,22 @@ When autonomous cars are trying to collaborate, Wi-Fi Module is used to exchange
 \begin{itemize}
 	\item Two autonomous cars can exchange messages through Wi-Fi.
 	\item Two or more autonomous cars can submit their location information through Wi-Fi.
-	\item Add other autonomous cars’ location on the map.See Figure. 4.
+	\item Adding other autonomous cars' locations on the map. Like Fig.~\ref{figure:collaboration}.
 	\item Calculate and exchange the distance information between cars and AprilTags. Decide a most efficient plan for all the autonomous cars in the team.
-	\item Estimate other’s pose and grasp an object and ove to the destination together.
+	\item Estimate other's pose and grasp an object and mote to the destination together.
 \end{itemize}
 
 \begin{figure}[h]
 \includegraphics[width=0.95\columnwidth]{collaboration}
 \centering
 \caption{The map after 4 autonomous cars exchage thier location information and add on the map.}
+ \label{figure:collaboration}
 \end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{SCHEDULE AND TEAM COLLABORATION}
-The estimated timeline of the project, our team divides project into 4 parts. We will start from  week 10 and finish on week 17.
+The estimated timeline of the project,our team divied project to 4 parts. We will start from  week 10 and finish all the things on week 17.
 \begin{figure}[h]
 \includegraphics[width=0.95\columnwidth]{schedule}
 \centering
