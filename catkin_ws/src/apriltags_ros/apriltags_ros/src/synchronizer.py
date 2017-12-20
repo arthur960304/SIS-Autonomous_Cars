@@ -3,7 +3,7 @@ import message_filters
 import rospy
 
 
-rospy.init_node("apriltag_publisher")
+rospy.init_node("synchronizer")
 caminfo_sub = message_filters.Subscriber("/raspicam_node/camera_info", sensor_msgs.CameraInfo)
 image_sub = message_filters.Subscriber("/raspicam_node/image", sensor_msgs.Image)
 apriltag1_pub = rospy.Publisher("/raspicam_node/camera_info", sensor_msgs.CameraInfo,  queue_size=1)
