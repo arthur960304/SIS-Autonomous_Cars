@@ -8,6 +8,7 @@ find_package(catkin REQUIRED COMPONENTS
   apriltags
   image_transport
   roscpp
+  rospy
   sensor_msgs
   geometry_msgs
   tf
@@ -24,6 +25,8 @@ add_message_files(
   FILES
   AprilTagDetection.msg
   AprilTagDetectionArray.msg
+  CameraInfo.msg
+  Image.msg
 )
 
 generate_messages(
@@ -35,7 +38,7 @@ generate_messages(
 catkin_package(
   INCLUDE_DIRS include
   LIBRARIES apriltag_detector
-  CATKIN_DEPENDS apriltags image_transport roscpp sensor_msgs geometry_msgs tf cv_bridge message_runtime nodelet std_msgs
+  CATKIN_DEPENDS apriltags image_transport roscpp rospy sensor_msgs geometry_msgs tf cv_bridge message_runtime nodelet std_msgs
   DEPENDS Eigen
 )
 
