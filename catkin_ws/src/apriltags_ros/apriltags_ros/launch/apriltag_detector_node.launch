@@ -1,25 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
 <launch>
-	<!-- start basic args -->
-	<arg name="veh" default="sr300"/>
-	<arg name="config" default="baseline" />
-	<arg name="param_file_name" default="default" />
-	<arg name="apriltags_param_file_name" default="$(arg param_file_name)" />
-	<arg name="local" default="false"/>	
-	<!-- end basic args -->
+    <arg name="pkg_name" value="apriltags_ros"/>
+    <arg name="node_name" default="apriltag_detector_node"/>
+    <arg name="veh" doc="Name of vehicle. ex: megaman"/>
+    <arg name="apriltag" default="true"/>
 
-	<arg name="apriltags" default="true"/>
-
-	<!-- Start April Tags -->
-	<group if="$(arg apriltags)">
-		<!-- AprilTags Detections -->
-		<remap from="/camera/image_raw" to="/raspicam_node/image" />
-		<remap from="compressed" to="/raspicam_node/image/compressed" />
-		<remap from="camera_node/image/camera_info" to="/raspicam_node/camera_info" />
-		<include file="$(find apriltags_ros)/launch/apriltag_detector_node.launch">
-			<arg name="veh" value="$(arg veh)"/>
-		</include>
-	<!--End Apriltags -->
-	</group>
+    <group ns="$(arg veh)">
+        <node if="$(arg apriltag)" name="$(arg node_name)" pkg="$(arg pkg_name)" type="$(arg node_name)"
+              output="screen">
+            <rosparam command="load"
+                      file="$(find apriltags_ros)/param/default.yaml"/>
+            <rosparam param="tag_descriptions" command="load" file="$(find apriltags_ros)/param/tag_size.yaml"/>
+        </node>
+    </group>
 </launch>
+
 
