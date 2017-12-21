@@ -1,0 +1,8 @@
+prefix=/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/install
+
+Name: raspicam_node
+Description: Description of raspicam_node
+Version: 0.2.2
+Cflags: -I/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/install/include
+Libs: -L/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/install/lib 
+Requires: 
