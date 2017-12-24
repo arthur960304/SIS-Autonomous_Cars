@@ -12,11 +12,6 @@
 #include <AprilTags/Tag36h9.h>
 #include <AprilTags/Tag36h11.h>
 #include <XmlRpcException.h>
-#include <message_filters/synchronizer.h>
-#include <message_filters/sync_policies/approximate_time.h>
-#include <sensor_msgs/CameraInfo.h>
-#include <sensor_msgs/Image.h>
-#include <message_filters/subscriber.h>
 
 namespace apriltags_ros{
 
@@ -64,15 +59,10 @@ AprilTagDetector::AprilTagDetector(ros::NodeHandle& nh, ros::NodeHandle& pnh): i
   }
 
   tag_detector_= boost::shared_ptr<AprilTags::TagDetector>(new AprilTags::TagDetector(*tag_codes));
-  image_sub_ = it_.subscribeCamera("/camera/image_raw", 30, &AprilTagDetector::imageCb, this);
-  //message_filters::Subscriber<Image> image_sub_1(nh, "/raspicam_node/image", 1);
-  //message_filters::Subscriber<CameraInfo> image_sub_2(nh, "/raspicam_node/camera_info", 1);
+  image_sub_ = it_.subscribeCamera("/camera/image_raw", 1, &AprilTagDetector::imageCb, this);
   image_pub_ = it_.advertise("tag_detections_image", 1);
   detections_pub_ = nh.advertise<AprilTagDetectionArray>("tag_detections", 1);
   pose_pub_ = nh.advertise<geometry_msgs::PoseArray>("tag_detections_pose", 1);
-  //typedef sync_policies::ApproximateTime<Image, CameraInfo> MySyncPolicy;
-  //Synchronizer<MySyncPolicy> sync(MySyncPolicy(10), image_sub_1, image_sub_2);
-  //sync.registerCallback(boost::bind(&AprilTagDetector::imageCb, _1, _2));
 }
 AprilTagDetector::~AprilTagDetector(){
   image_sub_.shutdown();
