@@ -9,7 +9,7 @@
               output="screen">
             <rosparam command="load"
                       file="$(find apriltags_ros)/param/default.yaml"/>
-            <rosparam param="tag_descriptions" command="load" file="$(find apriltags_ros)/param/tag_size.yaml"/>
+            <rosparam param="tag_descriptions" command="load" file="$(find apriltags_ros)/param/tag_size_example.yaml"/>
         </node>
     </group>
 </launch>
