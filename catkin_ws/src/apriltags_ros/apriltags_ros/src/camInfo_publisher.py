@@ -7,8 +7,8 @@ import rospy
 rospy.init_node("camInfo_publisher")
 caminfo_sub = message_filters.Subscriber("/raspicam_node/camera_info", sensor_msgs.msg.CameraInfo)
 image_sub = message_filters.Subscriber("/raspicam_node/image", sensor_msgs.msg.Image)
-apriltag1_pub = rospy.Publisher("/camera/image_raw/camera_info", sensor_msgs.msg.CameraInfo,  queue_size=1)
-apriltag2_pub = rospy.Publisher("/camera/image_raw/image", sensor_msgs.msg.Image,  queue_size=1) 
+apriltag1_pub = rospy.Publisher("/camera/image_raw/camera_info", sensor_msgs.msg.CameraInfo,  queue_size=10)
+apriltag2_pub = rospy.Publisher("/camera/image_raw/image", sensor_msgs.msg.Image,  queue_size=10) 
 
 def callback(j1, j2):
     #print j1, j2

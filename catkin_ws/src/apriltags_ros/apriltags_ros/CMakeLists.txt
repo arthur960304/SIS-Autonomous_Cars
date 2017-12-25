@@ -25,8 +25,6 @@ add_message_files(
   FILES
   AprilTagDetection.msg
   AprilTagDetectionArray.msg
-  CameraInfo.msg
-  Image.msg
 )
 
 generate_messages(
