@@ -66,12 +66,13 @@ roslaunch rplidar_ros hectormapping.launch
 ![](https://i.imgur.com/2Lwkxg1.png)
 
 - step3: 執行`rosrun rplidar_ros rplidarNodeClient`確保兩邊資料有連結
-    - Node only![](https://i.imgur.com/ZyZCh1h.png)
-    - Node/Topic (active)![](https://i.imgur.com/ywq2Y74.png)
-    - Node/Topic (all)![](https://i.imgur.com/By1qaqf.png)
 - step4: 執行rviz看結果
 ![](https://i.imgur.com/fGcZDW1.png)
-
+- rqt
+    - nodes only ![](https://i.imgur.com/ERBNbkT.png)
+    - nodes/topics (active) ![](https://i.imgur.com/vuw4qvN.png)
+    - nodes/topics (all) ![](https://i.imgur.com/GfRoN8N.png)
+    - rqt_tf_tree ![](https://i.imgur.com/rmIoGMI.png)
 :::warning
 [待解決]目前遇到的問題：
 ![](https://i.imgur.com/rGvYGWA.png)
