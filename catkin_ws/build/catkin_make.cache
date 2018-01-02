@@ -1,2 +1,2 @@
-adafruit_drivers:apriltags_ros/apriltags:apriltags_ros/apriltags_ros:me212bot:raspicam_node
--DCATKIN_DEVEL_PREFIX=/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/install -G Unix Makefiles
+adafruit_drivers:apriltags_ros/apriltags:apriltags_ros/apriltags_ros:me212bot:raspicam_node:rplidar_ros
+-DCATKIN_DEVEL_PREFIX=/home/isci/SIS-Autonomous_Cars/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/isci/SIS-Autonomous_Cars/catkin_ws/install -G Unix Makefiles

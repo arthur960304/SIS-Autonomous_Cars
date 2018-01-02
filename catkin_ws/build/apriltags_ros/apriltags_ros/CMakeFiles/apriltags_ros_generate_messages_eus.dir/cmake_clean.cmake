@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/apriltags_ros_generate_messages_eus"
-  "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/devel/share/roseus/ros/apriltags_ros/msg/AprilTagDetectionArray.l"
-  "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/devel/share/roseus/ros/apriltags_ros/msg/AprilTagDetection.l"
-  "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/devel/share/roseus/ros/apriltags_ros/manifest.l"
+  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/share/roseus/ros/apriltags_ros/msg/AprilTagDetection.l"
+  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/share/roseus/ros/apriltags_ros/msg/AprilTagDetectionArray.l"
+  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/share/roseus/ros/apriltags_ros/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

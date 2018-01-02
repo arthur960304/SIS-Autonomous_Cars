@@ -1,8 +1,8 @@
-prefix=/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/install
+prefix=/home/isci/SIS-Autonomous_Cars/catkin_ws/install
 
 Name: me212bot
 Description: Description of me212bot
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/install/lib 
+Libs: -L/home/isci/SIS-Autonomous_Cars/catkin_ws/install/lib 
 Requires: 

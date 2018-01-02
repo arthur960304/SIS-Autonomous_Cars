@@ -14,20 +14,20 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/adafruit_drivers"
+echo_and_run cd "/home/isci/SIS-Autonomous_Cars/catkin_ws/src/adafruit_drivers"
 
-# snsure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/install/lib/python2.7/dist-packages"
+# ensure that Python install destination exists
+echo_and_run mkdir -p "$DESTDIR/home/isci/SIS-Autonomous_Cars/catkin_ws/install/lib/python2.7/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/install/lib/python2.7/dist-packages:/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/build/lib/python2.7/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/build" \
+    PYTHONPATH="/home/isci/SIS-Autonomous_Cars/catkin_ws/install/lib/python2.7/dist-packages:/home/isci/SIS-Autonomous_Cars/catkin_ws/build/lib/python2.7/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/home/isci/SIS-Autonomous_Cars/catkin_ws/build" \
     "/usr/bin/python" \
-    "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/adafruit_drivers/setup.py" \
-    build --build-base "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/build/adafruit_drivers" \
+    "/home/isci/SIS-Autonomous_Cars/catkin_ws/src/adafruit_drivers/setup.py" \
+    build --build-base "/home/isci/SIS-Autonomous_Cars/catkin_ws/build/adafruit_drivers" \
     install \
     $DESTDIR_ARG \
-    --install-layout=deb --prefix="/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/install" --install-scripts="/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/install/bin"
+    --install-layout=deb --prefix="/home/isci/SIS-Autonomous_Cars/catkin_ws/install" --install-scripts="/home/isci/SIS-Autonomous_Cars/catkin_ws/install/bin"

@@ -10,4 +10,7 @@ set(raspicam_node_EXEC_DEPENDS "compressed_image_transport" "roscpp" "std_msgs" 
 set(raspicam_node_RUN_DEPENDS "compressed_image_transport" "roscpp" "std_msgs" "std_srvs" "sensor_msgs" "camera_info_manager" "dynamic_reconfigure" "libraspberrypi0")
 set(raspicam_node_TEST_DEPENDS )
 set(raspicam_node_DOC_DEPENDS )
+set(raspicam_node_URL_WEBSITE "")
+set(raspicam_node_URL_BUGTRACKER "")
+set(raspicam_node_URL_REPOSITORY "")
 set(raspicam_node_DEPRECATED "")

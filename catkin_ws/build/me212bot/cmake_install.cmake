@@ -1,8 +1,8 @@
-# Install script for directory: /home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/me212bot
+# Install script for directory: /home/isci/SIS-Autonomous_Cars/catkin_ws/src/me212bot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/isci/SIS-Autonomous_Cars/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,37 +33,37 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/me212bot/cmake" TYPE FILE FILES "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/build/me212bot/catkin_generated/installspace/me212bot-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/me212bot/cmake" TYPE FILE FILES "/home/isci/SIS-Autonomous_Cars/catkin_ws/build/me212bot/catkin_generated/installspace/me212bot-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/devel/share/roseus/ros/me212bot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/share/roseus/ros/me212bot")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/devel/lib/python2.7/dist-packages/me212bot")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/python2.7/dist-packages/me212bot")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/devel/lib/python2.7/dist-packages/me212bot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/python2.7/dist-packages/me212bot")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/build/me212bot/catkin_generated/installspace/me212bot.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/isci/SIS-Autonomous_Cars/catkin_ws/build/me212bot/catkin_generated/installspace/me212bot.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/me212bot/cmake" TYPE FILE FILES "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/build/me212bot/catkin_generated/installspace/me212bot-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/me212bot/cmake" TYPE FILE FILES "/home/isci/SIS-Autonomous_Cars/catkin_ws/build/me212bot/catkin_generated/installspace/me212bot-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/me212bot/cmake" TYPE FILE FILES
-    "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/build/me212bot/catkin_generated/installspace/me212botConfig.cmake"
-    "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/build/me212bot/catkin_generated/installspace/me212botConfig-version.cmake"
+    "/home/isci/SIS-Autonomous_Cars/catkin_ws/build/me212bot/catkin_generated/installspace/me212botConfig.cmake"
+    "/home/isci/SIS-Autonomous_Cars/catkin_ws/build/me212bot/catkin_generated/installspace/me212botConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/me212bot" TYPE FILE FILES "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/me212bot/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/me212bot" TYPE FILE FILES "/home/isci/SIS-Autonomous_Cars/catkin_ws/src/me212bot/package.xml")
 endif()
 

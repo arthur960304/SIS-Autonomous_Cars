@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/me212bot_generate_messages_eus"
-  "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/devel/share/roseus/ros/me212bot/manifest.l"
+  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/share/roseus/ros/me212bot/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

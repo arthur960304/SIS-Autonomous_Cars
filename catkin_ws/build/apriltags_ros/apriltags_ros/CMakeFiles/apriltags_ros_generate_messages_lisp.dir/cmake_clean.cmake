@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/apriltags_ros_generate_messages_lisp"
-  "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/devel/share/common-lisp/ros/apriltags_ros/msg/AprilTagDetectionArray.lisp"
-  "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/devel/share/common-lisp/ros/apriltags_ros/msg/AprilTagDetection.lisp"
+  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/share/common-lisp/ros/apriltags_ros/msg/AprilTagDetection.lisp"
+  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/share/common-lisp/ros/apriltags_ros/msg/AprilTagDetectionArray.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

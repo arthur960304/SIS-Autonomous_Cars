@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "adafruit_drivers"
-PROJECT_SPACE_DIR = "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/install"
+PROJECT_SPACE_DIR = "/home/isci/SIS-Autonomous_Cars/catkin_ws/install"
 PROJECT_VERSION = "0.0.0"

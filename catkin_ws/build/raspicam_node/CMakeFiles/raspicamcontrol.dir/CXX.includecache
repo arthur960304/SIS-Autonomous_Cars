@@ -6,45 +6,45 @@
 
 #IncludeRegexTransform: 
 
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/include/RaspiCLI.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/include/RaspiCLI.h
 
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/include/RaspiCamControl.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/include/RaspiCamControl.h
 interface/mmal/mmal.h
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/include/interface/mmal/mmal.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/include/interface/mmal/mmal.h
 interface/mmal/mmal_logging.h
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/include/interface/mmal/mmal_logging.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/include/interface/mmal/mmal_logging.h
 interface/mmal/util/mmal_default_components.h
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/include/interface/mmal/util/mmal_default_components.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/include/interface/mmal/util/mmal_default_components.h
 interface/mmal/util/mmal_util.h
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/include/interface/mmal/util/mmal_util.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/include/interface/mmal/util/mmal_util.h
 interface/mmal/util/mmal_util_params.h
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/include/interface/mmal/util/mmal_util_params.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/include/interface/mmal/util/mmal_util_params.h
 interface/vmcs_host/vc_vchi_gencmd.h
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/include/interface/vmcs_host/vc_vchi_gencmd.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/include/interface/vmcs_host/vc_vchi_gencmd.h
 
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/src/RaspiCamControl.cpp
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/RaspiCamControl.cpp
 memory.h
 -
 stdio.h
 -
 interface/vcos/vcos.h
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/src/interface/vcos/vcos.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/interface/vcos/vcos.h
 RaspiCLI.h
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/src/RaspiCLI.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/RaspiCLI.h
 RaspiCamControl.h
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/src/RaspiCamControl.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/RaspiCamControl.h
 interface/mmal/mmal.h
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/src/interface/mmal/mmal.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/interface/mmal/mmal.h
 interface/mmal/mmal_logging.h
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/src/interface/mmal/mmal_logging.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/interface/mmal/mmal_logging.h
 interface/mmal/util/mmal_default_components.h
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/src/interface/mmal/util/mmal_default_components.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/interface/mmal/util/mmal_default_components.h
 interface/mmal/util/mmal_util.h
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/src/interface/mmal/util/mmal_util.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/interface/mmal/util/mmal_util.h
 interface/mmal/util/mmal_util_params.h
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/src/interface/mmal/util/mmal_util_params.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/interface/mmal/util/mmal_util_params.h
 interface/vmcs_host/vc_vchi_gencmd.h
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/src/interface/vmcs_host/vc_vchi_gencmd.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/interface/vmcs_host/vc_vchi_gencmd.h
 
 /opt/vc/include/interface/mmal/mmal.h
 mmal_common.h

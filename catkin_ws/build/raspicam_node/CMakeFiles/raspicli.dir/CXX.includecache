@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/include/RaspiCLI.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/include/RaspiCLI.h
 
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/src/RaspiCLI.cpp
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/RaspiCLI.cpp
 memory.h
 -
 stdio.h
@@ -18,9 +18,9 @@ stdlib.h
 string.h
 -
 interface/vcos/vcos.h
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/src/interface/vcos/vcos.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/interface/vcos/vcos.h
 RaspiCLI.h
-/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/raspicam_node/src/RaspiCLI.h
+/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/RaspiCLI.h
 
 /opt/vc/include/interface/vcos/generic/vcos_common.h
 

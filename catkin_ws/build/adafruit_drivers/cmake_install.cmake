@@ -1,8 +1,8 @@
-# Install script for directory: /home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/adafruit_drivers
+# Install script for directory: /home/isci/SIS-Autonomous_Cars/catkin_ws/src/adafruit_drivers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/isci/SIS-Autonomous_Cars/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,21 +33,21 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  include("/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/build/adafruit_drivers/catkin_generated/safe_execute_install.cmake")
+  include("/home/isci/SIS-Autonomous_Cars/catkin_ws/build/adafruit_drivers/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/build/adafruit_drivers/catkin_generated/installspace/adafruit_drivers.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/isci/SIS-Autonomous_Cars/catkin_ws/build/adafruit_drivers/catkin_generated/installspace/adafruit_drivers.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/adafruit_drivers/cmake" TYPE FILE FILES
-    "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/build/adafruit_drivers/catkin_generated/installspace/adafruit_driversConfig.cmake"
-    "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/build/adafruit_drivers/catkin_generated/installspace/adafruit_driversConfig-version.cmake"
+    "/home/isci/SIS-Autonomous_Cars/catkin_ws/build/adafruit_drivers/catkin_generated/installspace/adafruit_driversConfig.cmake"
+    "/home/isci/SIS-Autonomous_Cars/catkin_ws/build/adafruit_drivers/catkin_generated/installspace/adafruit_driversConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/adafruit_drivers" TYPE FILE FILES "/home/car/SIS-Autonomous_Cars/apriltags_detection/catkin_ws/src/adafruit_drivers/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/adafruit_drivers" TYPE FILE FILES "/home/isci/SIS-Autonomous_Cars/catkin_ws/src/adafruit_drivers/package.xml")
 endif()
 
