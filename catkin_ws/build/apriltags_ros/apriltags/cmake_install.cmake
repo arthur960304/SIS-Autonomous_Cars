@@ -1,8 +1,8 @@
-# Install script for directory: /home/isci/SIS-Autonomous_Cars/catkin_ws/src/apriltags_ros/apriltags
+# Install script for directory: /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/src/apriltags_ros/apriltags
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/isci/SIS-Autonomous_Cars/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/isci/SIS-Autonomous_Cars/catkin_ws/build/apriltags_ros/apriltags/catkin_generated/installspace/apriltags.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build/apriltags_ros/apriltags/catkin_generated/installspace/apriltags.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/apriltags/cmake" TYPE FILE FILES
-    "/home/isci/SIS-Autonomous_Cars/catkin_ws/build/apriltags_ros/apriltags/catkin_generated/installspace/apriltagsConfig.cmake"
-    "/home/isci/SIS-Autonomous_Cars/catkin_ws/build/apriltags_ros/apriltags/catkin_generated/installspace/apriltagsConfig-version.cmake"
+    "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build/apriltags_ros/apriltags/catkin_generated/installspace/apriltagsConfig.cmake"
+    "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build/apriltags_ros/apriltags/catkin_generated/installspace/apriltagsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/apriltags" TYPE FILE FILES "/home/isci/SIS-Autonomous_Cars/catkin_ws/src/apriltags_ros/apriltags/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/apriltags" TYPE FILE FILES "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/src/apriltags_ros/apriltags/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -54,7 +54,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libapriltags.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/libapriltags.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/libapriltags.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libapriltags.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libapriltags.so")
     file(RPATH_CHANGE
@@ -68,6 +68,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/isci/SIS-Autonomous_Cars/catkin_ws/src/apriltags_ros/apriltags/include/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/src/apriltags_ros/apriltags/include/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 

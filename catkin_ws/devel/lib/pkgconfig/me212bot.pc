@@ -1,8 +1,0 @@
-prefix=/home/isci/SIS-Autonomous_Cars/catkin_ws/devel
-
-Name: me212bot
-Description: Description of me212bot
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib 
-Requires: 

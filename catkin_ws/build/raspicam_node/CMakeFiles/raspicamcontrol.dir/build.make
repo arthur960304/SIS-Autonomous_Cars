@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/isci/SIS-Autonomous_Cars/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/isci/SIS-Autonomous_Cars/catkin_ws/build
+CMAKE_BINARY_DIR = /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include raspicam_node/CMakeFiles/raspicamcontrol.dir/depend.make
@@ -58,17 +58,17 @@ include raspicam_node/CMakeFiles/raspicamcontrol.dir/progress.make
 include raspicam_node/CMakeFiles/raspicamcontrol.dir/flags.make
 
 raspicam_node/CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.o: raspicam_node/CMakeFiles/raspicamcontrol.dir/flags.make
-raspicam_node/CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.o: /home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/RaspiCamControl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isci/SIS-Autonomous_Cars/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object raspicam_node/CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.o"
-	cd /home/isci/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.o -c /home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/RaspiCamControl.cpp
+raspicam_node/CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.o: /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/RaspiCamControl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object raspicam_node/CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.o"
+	cd /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.o -c /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/RaspiCamControl.cpp
 
 raspicam_node/CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.i"
-	cd /home/isci/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/RaspiCamControl.cpp > CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.i
+	cd /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/RaspiCamControl.cpp > CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.i
 
 raspicam_node/CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.s"
-	cd /home/isci/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/RaspiCamControl.cpp -o CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.s
+	cd /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/src/RaspiCamControl.cpp -o CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.s
 
 raspicam_node/CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.o.requires:
 
@@ -88,15 +88,15 @@ raspicamcontrol_OBJECTS = \
 # External object files for target raspicamcontrol
 raspicamcontrol_EXTERNAL_OBJECTS =
 
-/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicamcontrol.a: raspicam_node/CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.o
-/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicamcontrol.a: raspicam_node/CMakeFiles/raspicamcontrol.dir/build.make
-/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicamcontrol.a: raspicam_node/CMakeFiles/raspicamcontrol.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/isci/SIS-Autonomous_Cars/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library /home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicamcontrol.a"
-	cd /home/isci/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node && $(CMAKE_COMMAND) -P CMakeFiles/raspicamcontrol.dir/cmake_clean_target.cmake
-	cd /home/isci/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/raspicamcontrol.dir/link.txt --verbose=$(VERBOSE)
+/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicamcontrol.a: raspicam_node/CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.o
+/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicamcontrol.a: raspicam_node/CMakeFiles/raspicamcontrol.dir/build.make
+/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicamcontrol.a: raspicam_node/CMakeFiles/raspicamcontrol.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicamcontrol.a"
+	cd /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node && $(CMAKE_COMMAND) -P CMakeFiles/raspicamcontrol.dir/cmake_clean_target.cmake
+	cd /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/raspicamcontrol.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-raspicam_node/CMakeFiles/raspicamcontrol.dir/build: /home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicamcontrol.a
+raspicam_node/CMakeFiles/raspicamcontrol.dir/build: /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicamcontrol.a
 
 .PHONY : raspicam_node/CMakeFiles/raspicamcontrol.dir/build
 
@@ -105,10 +105,10 @@ raspicam_node/CMakeFiles/raspicamcontrol.dir/requires: raspicam_node/CMakeFiles/
 .PHONY : raspicam_node/CMakeFiles/raspicamcontrol.dir/requires
 
 raspicam_node/CMakeFiles/raspicamcontrol.dir/clean:
-	cd /home/isci/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node && $(CMAKE_COMMAND) -P CMakeFiles/raspicamcontrol.dir/cmake_clean.cmake
+	cd /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node && $(CMAKE_COMMAND) -P CMakeFiles/raspicamcontrol.dir/cmake_clean.cmake
 .PHONY : raspicam_node/CMakeFiles/raspicamcontrol.dir/clean
 
 raspicam_node/CMakeFiles/raspicamcontrol.dir/depend:
-	cd /home/isci/SIS-Autonomous_Cars/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/isci/SIS-Autonomous_Cars/catkin_ws/src /home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node /home/isci/SIS-Autonomous_Cars/catkin_ws/build /home/isci/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node /home/isci/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node/CMakeFiles/raspicamcontrol.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/src /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node/CMakeFiles/raspicamcontrol.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : raspicam_node/CMakeFiles/raspicamcontrol.dir/depend
 

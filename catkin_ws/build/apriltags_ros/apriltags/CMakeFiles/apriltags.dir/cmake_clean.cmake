@@ -13,8 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/apriltags.dir/src/TagDetector.cc.o"
   "CMakeFiles/apriltags.dir/src/TagFamily.cc.o"
   "CMakeFiles/apriltags.dir/src/UnionFindSimple.cc.o"
-  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/libapriltags.pdb"
-  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/libapriltags.so"
+  "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/libapriltags.pdb"
+  "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/libapriltags.so"
 )
 
 # Per-language clean rules from dependency scanning.

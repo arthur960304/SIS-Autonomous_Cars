@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/isci/SIS-Autonomous_Cars/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/isci/SIS-Autonomous_Cars/catkin_ws/build
+CMAKE_BINARY_DIR = /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build
 
 # Utility rule file for dynamic_reconfigure_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ raspicam_node/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build:
 .PHONY : raspicam_node/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
 
 raspicam_node/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean:
-	cd /home/isci/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : raspicam_node/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean
 
 raspicam_node/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/depend:
-	cd /home/isci/SIS-Autonomous_Cars/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/isci/SIS-Autonomous_Cars/catkin_ws/src /home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node /home/isci/SIS-Autonomous_Cars/catkin_ws/build /home/isci/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node /home/isci/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/src /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build/raspicam_node/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : raspicam_node/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/depend
 

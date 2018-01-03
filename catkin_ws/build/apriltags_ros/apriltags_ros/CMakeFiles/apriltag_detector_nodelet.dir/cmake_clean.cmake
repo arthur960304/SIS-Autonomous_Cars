@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/apriltag_detector_nodelet.dir/src/apriltag_detector_nodelet.cpp.o"
-  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/libapriltag_detector_nodelet.pdb"
-  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/libapriltag_detector_nodelet.so"
+  "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/libapriltag_detector_nodelet.pdb"
+  "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/libapriltag_detector_nodelet.so"
 )
 
 # Per-language clean rules from dependency scanning.

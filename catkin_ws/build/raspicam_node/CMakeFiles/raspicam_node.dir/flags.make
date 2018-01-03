@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"raspicam_node\"
 
-CXX_INCLUDES = -I/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/include -I/home/isci/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/include/opencv-3.3.1 -I/opt/ros/kinetic/include/opencv-3.3.1/opencv -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/pi/userland -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux 
+CXX_INCLUDES = -I/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/include -I/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/src/raspicam_node/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/include/opencv-3.2.0-dev -I/opt/ros/kinetic/include/opencv-3.2.0-dev/opencv -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/pi/userland -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux 
 

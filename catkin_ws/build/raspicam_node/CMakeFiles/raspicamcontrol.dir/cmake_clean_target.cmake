@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicamcontrol.a"
+  "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicamcontrol.a"
 )
