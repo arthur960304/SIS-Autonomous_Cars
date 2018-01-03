@@ -15,10 +15,10 @@ if __name__ == "__main__" :
 			(trans1,rot1) = ls.lookupTransform('/map', '/base_link', rospy.Time(0))
 			(trans2,rot1) = ls.lookupTransform('/base_link', '/raspicam', rospy.Time(0))
 			(trans3,rot2) = ls.lookupTransform('/raspicam', '/tag_21', rospy.Time(0))
-			trans.x = trans1.x + trans2.x + trans3.x
-			trans.y = trans1.y + trans2.y + trans3.y
-			trans.z = trans1.z + trans2.z + trans3.z
-			show_points(self, trans, /tag21)
+			trans[0] = trans1[0] + trans2[0] + trans3[0]
+			trans[1] = trans1[1] + trans2[1] + trans3[1]
+			trans[2] = trans1[2] + trans2[2] + trans3[2]
+			show_points(self, trans, tag21)
 		except (tf.LookupException, tf.ConnectivityException, tf.ExtrapolationException):
 			continue
 
@@ -27,9 +27,9 @@ def show_points(self, trans, frame):
     triplePoints = []
      #transform from x,y points to x,y,z points
         p = Point() 
-        p.x = trans.x
-        p.y = trans.y
-        p.z = trans.z
+        p.x = trans[0]
+        p.y = trans[1]
+        p.z = trans[2]
         triplePoints.append(p)
 
     iterations = 0
