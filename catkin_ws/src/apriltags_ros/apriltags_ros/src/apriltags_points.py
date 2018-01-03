@@ -9,7 +9,7 @@ if __name__ == "__main__" :
 	rospy.init_node("apriltags_points")
 
 	ls = tf.TransformListener()
-
+	trans = [0] * 3
 	while not rospy.is_shutdown():
 		try:
 			(trans1,rot1) = ls.lookupTransform('/map', '/base_link', rospy.Time(0))
