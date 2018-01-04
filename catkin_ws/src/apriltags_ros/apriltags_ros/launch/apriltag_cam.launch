@@ -1,0 +1,7 @@
+<launch>
+	<node name="republish" type="republish" pkg="image_transport" output="screen" args="compressed in:=/raspicam_node/image raw out:=/raspicam_node/image" />
+	<node pkg="apriltags_ros" type=“camInfo_publisher” name="camInfo_publisher" >
+	<node name="tf_base_raspicam” pkg="tf" type="static_transform_publisher" args=“0.05 0 0 0 0 0 1 base_link raspicam 100” />
+	<node pkg="apriltags_ros" type=“apriltags_points” name=“apriltags_points” >
+</launch>
+
