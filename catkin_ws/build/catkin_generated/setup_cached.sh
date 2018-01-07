@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/kathy/catkin_ws/devel/lib:/opt/ros/kinetic/lib"
+export PKG_CONFIG_PATH="/home/kathy/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig"
 export PWD="/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/src:$ROS_PACKAGE_PATH"
+export PYTHONPATH="/home/kathy/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages"
