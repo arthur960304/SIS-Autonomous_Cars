@@ -51,6 +51,6 @@ if __name__ == "__main__" :
 			trans[0] = trans1[0] + trans2[0] + trans3[0]
 			trans[1] = trans1[1] + trans2[1] + trans3[1]
 			trans[2] = trans1[2] + trans2[2] + trans3[2]
-			show_points(trans, “tag21”)
+			show_points(trans, "tag21")
 		except (tf.LookupException, tf.ConnectivityException, tf.ExtrapolationException):
 			continue
