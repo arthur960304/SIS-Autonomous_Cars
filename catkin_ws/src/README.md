@@ -18,4 +18,4 @@ How to run RPi Camera
     
 How to run Apriltag Detector
 ========================================================================================
-  roslaunch apriltags_ros example.launch
+    roslaunch apriltags_ros example.launch
