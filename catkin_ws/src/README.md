@@ -1,10 +1,10 @@
-How to run RPi Camera
+How to run RPi Camera 
 ========================================================================================
-  1) If you want to run the normal resolution, run the code below
+  1) If you want to run with normal resolution, run the code below
     
     roslaunch raspicam_node camerav2_1280x960.launch
     
-  2) If you want to run in lower resolution and lower frame rate, run teh code below
+  2) If you want to run with lower resolution and lower frame rate, run the code below
     
     roslaunch raspicam_node camerav2_revised.launch
     
@@ -16,6 +16,16 @@ How to run RPi Camera
   
     rosrun apriltags_ros camInfo_publisher.py
     
+    
 How to run Apriltag Detector
 ========================================================================================
     roslaunch apriltags_ros example.launch
+    
+Set static tf
+========================================================================================
+    rosrun tf static_transform_publisher 0 0 0 0 0 0 /base_link /raspicam 100
+
+Show apriltags in Rviz
+========================================================================================
+    rosrun apriltags_ros apriltags_points.py
+    
