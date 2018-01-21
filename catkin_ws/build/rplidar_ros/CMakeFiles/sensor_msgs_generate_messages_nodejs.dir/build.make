@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/isci/SIS-Autonomous_Cars/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build
+CMAKE_BINARY_DIR = /home/isci/SIS-Autonomous_Cars/catkin_ws/build
 
 # Utility rule file for sensor_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ rplidar_ros/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build: sensor_ms
 .PHONY : rplidar_ros/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
 
 rplidar_ros/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build/rplidar_ros && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/isci/SIS-Autonomous_Cars/catkin_ws/build/rplidar_ros && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : rplidar_ros/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 
 rplidar_ros/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/src /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/src/rplidar_ros /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build/rplidar_ros /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/build/rplidar_ros/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/isci/SIS-Autonomous_Cars/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/isci/SIS-Autonomous_Cars/catkin_ws/src /home/isci/SIS-Autonomous_Cars/catkin_ws/src/rplidar_ros /home/isci/SIS-Autonomous_Cars/catkin_ws/build /home/isci/SIS-Autonomous_Cars/catkin_ws/build/rplidar_ros /home/isci/SIS-Autonomous_Cars/catkin_ws/build/rplidar_ros/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rplidar_ros/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
 

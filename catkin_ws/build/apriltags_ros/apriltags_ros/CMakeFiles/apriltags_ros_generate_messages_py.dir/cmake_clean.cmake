@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/apriltags_ros_generate_messages_py"
-  "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/python2.7/dist-packages/apriltags_ros/msg/_AprilTagDetection.py"
-  "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/python2.7/dist-packages/apriltags_ros/msg/_AprilTagDetectionArray.py"
-  "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/python2.7/dist-packages/apriltags_ros/msg/__init__.py"
+  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/python2.7/dist-packages/apriltags_ros/msg/_AprilTagDetection.py"
+  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/python2.7/dist-packages/apriltags_ros/msg/_AprilTagDetectionArray.py"
+  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/python2.7/dist-packages/apriltags_ros/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

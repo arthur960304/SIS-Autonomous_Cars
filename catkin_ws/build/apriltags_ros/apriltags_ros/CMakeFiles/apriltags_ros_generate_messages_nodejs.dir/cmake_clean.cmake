@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/apriltags_ros_generate_messages_nodejs"
-  "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/share/gennodejs/ros/apriltags_ros/msg/AprilTagDetection.js"
-  "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/share/gennodejs/ros/apriltags_ros/msg/AprilTagDetectionArray.js"
+  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/share/gennodejs/ros/apriltags_ros/msg/AprilTagDetection.js"
+  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/share/gennodejs/ros/apriltags_ros/msg/AprilTagDetectionArray.js"
 )
 
 # Per-language clean rules from dependency scanning.

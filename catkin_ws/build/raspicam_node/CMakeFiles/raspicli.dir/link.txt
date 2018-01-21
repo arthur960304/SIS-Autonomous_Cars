@@ -1,2 +1,2 @@
-/usr/bin/ar qc /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicli.a  CMakeFiles/raspicli.dir/src/RaspiCLI.cpp.o
-/usr/bin/ranlib /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicli.a
+/usr/bin/ar qc /home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicli.a  CMakeFiles/raspicli.dir/src/RaspiCLI.cpp.o
+/usr/bin/ranlib /home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicli.a

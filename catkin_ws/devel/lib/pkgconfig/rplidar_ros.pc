@@ -1,8 +1,8 @@
-prefix=/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel
+prefix=/home/isci/SIS-Autonomous_Cars/catkin_ws/devel
 
 Name: rplidar_ros
 Description: Description of rplidar_ros
 Version: 1.5.7
 Cflags: 
-Libs: -L/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib 
+Libs: -L/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib 
 Requires: 

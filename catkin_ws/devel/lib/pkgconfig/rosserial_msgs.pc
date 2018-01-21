@@ -1,0 +1,8 @@
+prefix=/home/isci/SIS-Autonomous_Cars/catkin_ws/devel
+
+Name: rosserial_msgs
+Description: Description of rosserial_msgs
+Version: 0.7.7
+Cflags: -I/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/include
+Libs: -L/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib 
+Requires: message_runtime

@@ -1,8 +1,8 @@
-prefix=/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/install
+prefix=/home/isci/SIS-Autonomous_Cars/catkin_ws/install
 
 Name: apriltags_ros
 Description: Description of apriltags_ros
 Version: 0.1.2
-Cflags: -I/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/install/include -I/usr/include/eigen3
-Libs: -L/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/install/lib -lapriltag_detector
+Cflags: -I/home/isci/SIS-Autonomous_Cars/catkin_ws/install/include -I/usr/include/eigen3
+Libs: -L/home/isci/SIS-Autonomous_Cars/catkin_ws/install/lib -lapriltag_detector
 Requires: apriltags image_transport roscpp rospy sensor_msgs geometry_msgs tf cv_bridge message_runtime nodelet std_msgs

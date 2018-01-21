@@ -50,7 +50,13 @@ if __name__ == "__main__" :
 			(trans1,rot1) = ls.lookupTransform('/map', '/base_link', rospy.Time(0))
 			(trans2,rot1) = ls.lookupTransform('/base_link', '/raspicam', rospy.Time(0))
 			(trans3,rot2) = ls.lookupTransform('/raspicam', '/tag_21', rospy.Time(0))
-			if (time == 1) : 
+			x = trans3[0]
+			y = trans3[1]
+			z = trans3[2]
+			trans3[0] = z
+			trans3[1] = -x
+			trans3[2] = -y
+			if (time <= 10) : 
 				trans[0] = trans1[0] + trans2[0] + trans3[0]
 				trans[1] = trans1[1] + trans2[1] + trans3[1]
 				trans[2] = trans1[2] + trans2[2] + trans3[2]

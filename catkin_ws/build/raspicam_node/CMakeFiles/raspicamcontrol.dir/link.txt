@@ -1,2 +1,2 @@
-/usr/bin/ar qc /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicamcontrol.a  CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.o
-/usr/bin/ranlib /home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicamcontrol.a
+/usr/bin/ar qc /home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicamcontrol.a  CMakeFiles/raspicamcontrol.dir/src/RaspiCamControl.cpp.o
+/usr/bin/ranlib /home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/libraspicamcontrol.a

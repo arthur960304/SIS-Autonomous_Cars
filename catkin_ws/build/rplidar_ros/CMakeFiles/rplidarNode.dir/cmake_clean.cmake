@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o"
   "CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o"
   "CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o"
-  "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/rplidar_ros/rplidarNode.pdb"
-  "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/rplidar_ros/rplidarNode"
+  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/rplidar_ros/rplidarNode.pdb"
+  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/rplidar_ros/rplidarNode"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,8 @@
-prefix=/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/install
+prefix=/home/isci/SIS-Autonomous_Cars/catkin_ws/install
 
 Name: raspicam_node
 Description: Description of raspicam_node
 Version: 0.2.2
-Cflags: -I/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/install/include
-Libs: -L/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/install/lib 
+Cflags: -I/home/isci/SIS-Autonomous_Cars/catkin_ws/install/include
+Libs: -L/home/isci/SIS-Autonomous_Cars/catkin_ws/install/lib 
 Requires: 

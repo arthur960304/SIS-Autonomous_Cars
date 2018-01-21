@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/raspicam_node_gencfg"
-  "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/include/raspicam_node/CameraConfig.h"
-  "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/share/raspicam_node/docs/CameraConfig.dox"
-  "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/share/raspicam_node/docs/CameraConfig-usage.dox"
-  "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/lib/python2.7/dist-packages/raspicam_node/cfg/CameraConfig.py"
-  "/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel/share/raspicam_node/docs/CameraConfig.wikidoc"
+  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/include/raspicam_node/CameraConfig.h"
+  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/share/raspicam_node/docs/CameraConfig.dox"
+  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/share/raspicam_node/docs/CameraConfig-usage.dox"
+  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/lib/python2.7/dist-packages/raspicam_node/cfg/CameraConfig.py"
+  "/home/isci/SIS-Autonomous_Cars/catkin_ws/devel/share/raspicam_node/docs/CameraConfig.wikidoc"
 )
 
 # Per-language clean rules from dependency scanning.

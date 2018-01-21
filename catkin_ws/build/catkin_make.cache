@@ -1,2 +1,2 @@
-apriltags_ros/apriltags:apriltags_ros/apriltags_ros:raspicam_node:rplidar_ros
--DCATKIN_DEVEL_PREFIX=/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kathy/Desktop/SIS-Autonomous_Cars/catkin_ws/install -G Unix Makefiles
+apriltags_ros/apriltags:apriltags_ros/apriltags_ros:raspicam_node:rosserial/rosserial:rosserial/rosserial_arduino:rosserial/rosserial_client:rosserial/rosserial_embeddedlinux:rosserial/rosserial_mbed:rosserial/rosserial_msgs:rosserial/rosserial_python:rosserial/rosserial_server:rosserial/rosserial_test:rosserial/rosserial_tivac:rosserial/rosserial_windows:rosserial/rosserial_xbee:rplidar_ros
+-DCATKIN_DEVEL_PREFIX=/home/isci/SIS-Autonomous_Cars/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/isci/SIS-Autonomous_Cars/catkin_ws/install -G Unix Makefiles

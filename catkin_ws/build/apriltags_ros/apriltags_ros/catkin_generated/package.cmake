@@ -10,4 +10,7 @@ set(apriltags_ros_EXEC_DEPENDS "apriltags" "image_transport" "roscpp" "rospy" "s
 set(apriltags_ros_RUN_DEPENDS "apriltags" "image_transport" "roscpp" "rospy" "sensor_msgs" "geometry_msgs" "tf" "cv_bridge" "message_runtime" "nodelet" "std_msgs")
 set(apriltags_ros_TEST_DEPENDS )
 set(apriltags_ros_DOC_DEPENDS )
+set(apriltags_ros_URL_WEBSITE "http://wiki.ros.org/apriltags_ros")
+set(apriltags_ros_URL_BUGTRACKER "https://github.com/RIVeR-Lab/apriltags_ros/issues")
+set(apriltags_ros_URL_REPOSITORY "https://github.com/RIVeR-Lab/apriltags_ros")
 set(apriltags_ros_DEPRECATED "")
