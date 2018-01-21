@@ -62,8 +62,13 @@ if __name__ == "__main__" :
 				trans[2] = trans1[2] + trans2[2] + trans3[2]
 				time += 1
 				origin_trans = trans
+<<<<<<< HEAD
 				show_points(trans, "tag_21")
 			else : 
+=======
+				show_points(trans, "tag21")
+			else :
+>>>>>>> c7787f3f1a847ffe929a28f1f33930cb08f52f84
 				show_points(origin_trans, "tag_21")
 		except (tf.LookupException, tf.ConnectivityException, tf.ExtrapolationException):
 			continue
